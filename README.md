@@ -3,14 +3,6 @@
 <h3>Para nossa organização do grupo, teremos back e front, peço para gerarem branch antes de subir realmente para o projeto principal, todos nós do grupo devemos avaliar as alterações para que assim seja colocada na main(Projeto Principal)</h3>
 
 <br>
-
-<h3>Mensagens: Para subir suas branchs coloquem as mensagens de uma forma que explique em poucas palavras o que fez "https://github.com/iuricode/padroes-de-commits" este link pode ser util para ajudar com os padrões =)</h3>
-
-<br>
-
-<h3>Lembrando pessoal, vamos seguir clean code e sempre fazer pull antes de qualquer alteração para que assim não haja conflitos</h3>
-
-<br>
 <br>
 
 Gabriel Ferreira Carrijo 
