@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Roboto+Condensed&display=swap');
+
+:root {
+    --prussian-blue-color: #0B3C5F;
+    --sky-blue-color: #328CC1;
+    --gold-leaf-color: #D9B310;
+    --ivory-black-color: #1D2731;
+    --plaster: #CDCDCD;
+    --white: #fff;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+form {
+    width: 25rem;
+}
+
+input, button {
+    padding: 10px;
+    width: -webkit-fill-available;
+}
+
+button[disabled]{
+    opacity: 0.5;
+}
+
+input{
+    border: none;
+    border-radius: 40px;
+    color: #000;
+    padding-left: 15px;
+
+}
+
+input::placeholder, .dtNasc::placeholder{
+    color: #d9d9d9;
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+button {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.TextoTakimundo {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--prussian-blue-color);
+    padding-bottom: 3vh;
+}
+
+.TextoCadastro {
+    text-align: center;
+    color: var(--sky-blue-color);
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 3vh;
+}
+
+.formFild{
+    margin-bottom: 2rem;
+
+}
+
+.outline {
+    width: 15rem;
+    height: 3rem;
+    background-color: var(--sky-blue-color);
+    color: var(--white);
+    border: 1px solid --white;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-cadastro {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.wrap-cadastro{
+    padding-top: 5vh;
+    width: 25vw;
+    height: 50vh;
+    background-color: var(--plaster);
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
+    overflow: hidden;
+}
+
+.checkboxButton{
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: none;
+    position: absolute;
+}
+
+.formFild2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+.formFild3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    padding: 5px;
+    width: -webkit-fill-available;
+}
+
+.formFild3 a{
+    color: var(--sky-blue-color)
+}
+
+.dtNasc, .password{
+    width: 10.5rem
+}
+
+.formFild3 p{
+    margin-left: 1.5rem;
+}

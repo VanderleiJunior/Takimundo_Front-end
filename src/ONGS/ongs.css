@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+:root {
+    --prussian-blue-color: #0B3C5F;
+    --sky-blue-color: #328CC1;
+    --gold-leaf-color: #D9B310;
+    --ivory-black-color: #1D2731;
+    --plaster: #CDCDCD;
+    --white: #fff;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-ongs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8vh
+}
+
+.ongs-list {
+    display: flex;
+    align-items: center;
+}
+
+.ongs-card{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 24vw;
+    margin: 3vw;
+    background-color: var(--prussian-blue-color);
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
+
+.ong-btn img {
+    max-width: 15vw;
+}
+
+.ong-btn {
+    background: var(--plaster);
+    height: 80%;
+    width: 100%;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wiki{
+    background-color: var(--plaster);
+    padding: 0.5vw;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
